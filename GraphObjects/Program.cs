@@ -31,6 +31,21 @@ namespace GraphObjects
 
             AbsGraphObj.ChangeColorForced("ultramarine");
             AbsGraphObj.DrawScene();
+
+            Console.WriteLine("\nAttempt to create Circle with negative radius value");
+
+            try
+            {
+                Circle circle2 = new Circle(35, 12, -14.2);
+                circle2.Draw();
+            }
+            catch (InvalidRadius radEx)
+            {
+                Console.WriteLine($"{radEx.Message}: {radEx.InvalidRadiusValue}");
+            }
+
+            //NB: из-за отсутствия фабричного метода всё равно добавляется окружность с центром (32, 12) и нулевым радиусом
+            AbsGraphObj.DrawScene();
         }
     }
 }

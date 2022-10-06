@@ -16,7 +16,10 @@ namespace GraphObjects
         {
             this.centerX = centerX;
             this.centerY = centerY;
-            this.radius = radius;
+            if (radius > 0)
+                this.radius = radius;
+            else
+                throw new InvalidRadius(radius, "Radius must be more zero value");
         }
 
         public void Scale(double ratioScale)
