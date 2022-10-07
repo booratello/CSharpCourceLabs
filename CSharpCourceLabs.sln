@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuadraticEquation", "Quadra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphObjects", "GraphObjects\GraphObjects.csproj", "{6E45360E-A991-4881-9E4F-806F21739C50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankOperations", "BankOperations\BankOperations.csproj", "{6CC39577-000B-4EF1-82E8-E9AD6D72B5B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankOperations", "BankOperations\BankOperations.csproj", "{6CC39577-000B-4EF1-82E8-E9AD6D72B5B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassPerson", "ClassPerson\ClassPerson.csproj", "{99D3424B-58C2-4F30-85A4-8CE51024179E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{6CC39577-000B-4EF1-82E8-E9AD6D72B5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CC39577-000B-4EF1-82E8-E9AD6D72B5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CC39577-000B-4EF1-82E8-E9AD6D72B5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D3424B-58C2-4F30-85A4-8CE51024179E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D3424B-58C2-4F30-85A4-8CE51024179E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D3424B-58C2-4F30-85A4-8CE51024179E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D3424B-58C2-4F30-85A4-8CE51024179E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

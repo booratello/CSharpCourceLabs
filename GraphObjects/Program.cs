@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace GraphObjects
 {
+    /// <summary>
+    /// Программа для создания объектов класса AbsGraphObj и унаследованных от него классов
+    /// </summary>
     internal class Program
     {
         static void Main(string[] args)

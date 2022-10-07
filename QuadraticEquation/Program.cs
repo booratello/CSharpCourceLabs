@@ -2,6 +2,9 @@
 
 namespace QuadraticEquation
 {
+    /// <summary>
+    /// Программа для поиска корней квадратного уровнения, коэффициенты которого указывает пользователь
+    /// </summary>
     internal class Program
     {
         public static (double D, double? X1, double? X2) Solve((double A, double B, double C) ratios)

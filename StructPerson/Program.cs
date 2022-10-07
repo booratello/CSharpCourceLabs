@@ -2,6 +2,9 @@
 
 namespace StructPerson
 {
+    /// <summary>
+    /// Программа для создания объектов структуры Person и вызова для этих объектов определённого в структуре метода Show
+    /// </summary>
     struct Person
     {
         string Name;

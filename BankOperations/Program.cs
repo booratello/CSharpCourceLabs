@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BankOperations
 {
+    /// <summary>
+    /// Программа для создания объектов класса BankAccout, редактирование полей которого доступно только через соответствующие методы
+    /// </summary>
     internal class Program
     {
         static void Main(string[] args)
